@@ -49,8 +49,8 @@
    */
 
   /* font-family */
-  --fontFamily-forum: 'Forum', cursive;
-  --fontFamily-dm_sans: 'DM Sans', sans-serif;
+  --fontFamily-forum: "Marhey", sans-serif;
+  --fontFamily-dm_sans: "Marhey", sans-serif;
 
   /* font-size */
   --fontSize-display-1: calc(1.3rem + 6.7vw);
@@ -1465,7 +1465,7 @@ textarea.input-field {
    */
 
   :is(.service, .about) .section-text {
-    max-width: 420px;
+    max-width: 500px;
     margin-inline: auto;
   }
 
@@ -1824,7 +1824,7 @@ textarea.input-field {
   .special-dish .abs-img {
     position: absolute;
     top: 10px;
-    left: -40px;
+    left: 150px;
     animation: move 5s linear infinite;
   }
 
@@ -2030,8 +2030,18 @@ textarea.input-field {
   }
 
   .special-dish-content .container {
-    max-width: 460px;
+    max-width: 500px;
     margin-inline: 0;
+    position: relative;
+  }
+  .special-dish-content .container .section-text, .section-title, .wrapper{
+    text-align: center;
+  }
+
+  .special-dish-content .container .image-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
